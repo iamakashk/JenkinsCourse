@@ -7,17 +7,10 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        
-                stage('Hi') {
-            steps {
+        stage('Hi') {
+        steps {
                 echo 'Hello World'
-            }
-            
-              steps {
-                echo 'Hello World222222'
             }
         }
     }
-    
-
 }
