@@ -3,6 +3,7 @@ pipeline {
 
     parameters {
         string(defaultValue: "TEST", description: "Which environment to deploy in?", name: "deployEnv")
+string(defaultValue: "Paste URL here", description: "Which environment to deploy in?", name: "gitURL")    
     }
 
     stages {
