@@ -9,6 +9,8 @@ string(defaultValue: "Paste URL here", description: "Which environment to deploy
     stages {
         stage("Demo"){
             steps {
+
+                deleteDir()
                 echo "string is set to: ${params.deployEnv}"
                 sh " git clone ${params.gitURL}"
             }
