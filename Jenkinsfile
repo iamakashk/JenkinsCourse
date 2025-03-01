@@ -10,6 +10,8 @@ pipeline {
         stage('Hi') {
         steps {
                 echo 'Hello Suyash...Focus!!!'
+
+                 echo 'Hello Suyash...Focus!!!'
             }
         }
     }
