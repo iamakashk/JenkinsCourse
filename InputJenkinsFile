@@ -9,6 +9,7 @@ pipeline {
         stage("Demo"){
             steps {
                 echo "string is set to: ${params.deployEnv}"
+                sh " git clone ${params.deployEnv}"
             }
         }
     }
