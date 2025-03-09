@@ -30,5 +30,13 @@ pipeline {
                  echo 'Hello Suyash...Focus!!!'
             }
         }
+
+                               stage('Stage 5') {
+        steps {
+                echo ' change two !!!'
+
+                 echo 'Hello Suyash...Focus!!!'
+            }
+        }
     }
 }
